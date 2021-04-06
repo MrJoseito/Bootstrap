@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web con Bootstrap (Curso de Alfonso)</title>
+</head>
+<body>
+   <!--"Layout" Containers-->
+   <div class="container-flued">
+       <!--Cabezal-->
+        <header>
+        <!--"Components" Navbar-->
+            <div class="container">
+                <nav class="navbar navbar-light border border-warning">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="iconos/bootstrap-fill.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                        Bootstrap
+                      </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+       <!--Fin del cabezal-->
+       <section>
+           <!--"Content" Imagens-->
+           <div class="mt-5">
+             <img style="width: 50em;" src="imagenes/maxresdefault.jpg" class="rounded mx-auto d-block " alt="...">
+           </div>
+       </section>
+    <!--"Forms" Checks & radios-->
+       <section class="container-sm border border-warning p-3 mt-3">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+            <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+          </div>
+       </section>
+   </div>
+</body>
+</html>
